@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaskTracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_task_list">TaskListActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_qa">QAActivity</string>
+    <string name="button_executeTask">Execute</string>
+    <string name="button_taskName">Task Name</string>
+    <string name="button_qa">QA</string>
+    <string name="title_activity_task_info">TaskInfoActivity</string>
+
+</resources>
