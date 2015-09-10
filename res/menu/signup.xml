@@ -1,7 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     tools:context="com.example.searchlogger.SignupActivity" >
+=======
+    tools:context="com.example.tasktracker.SignupActivity" >
+>>>>>>> 905a76576218c4ca294bf49c0839129744492d27
 
     <item
         android:id="@+id/action_settings"
