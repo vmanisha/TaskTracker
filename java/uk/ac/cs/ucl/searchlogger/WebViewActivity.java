@@ -1,7 +1,7 @@
 package uk.ac.cs.ucl.searchlogger;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
@@ -88,4 +88,9 @@ public class WebViewActivity extends ActionBarActivity implements GestureDetecto
             mPageInfo.setEndDate();
 		mPageInfo = mTaskInfo.getPageData(url, pageType);
 	}
+
+    @Override
+    public android.support.v4.app.FragmentManager getSupportFragmentManager() {
+        return null;
+    }
 }

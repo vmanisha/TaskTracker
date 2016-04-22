@@ -30,4 +30,9 @@ public class SignupActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	@Override
+	public android.support.v4.app.FragmentManager getSupportFragmentManager() {
+		return null;
+	}
 }
